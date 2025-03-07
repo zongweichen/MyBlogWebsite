@@ -1,12 +1,15 @@
 # How to set up environment
 
 clone file to set up environment
-```git clone ```
+
+```git clone https://github.com/zongweichen/MyBlogWebsite.git```
 
 cd into laradock file
+
 ``` cd BackEnd/blog/laradock```
 
 run the script below
+
 ``` cp .env.example .env ```
 
 ```docker-compose up -d mysql```
